@@ -58,44 +58,12 @@ class TestReview extends Component {
                                 <Text style={{ fontSize: 22, color: '#555555' }}>Your Score 56%</Text>
                             </ListItem>
                         </List>
-                        <View style={[styles.btnStyle, { alignItems: 'center', justifyContent: 'center' }]}>
-                            <TouchableHighlight
-                                style={styles.button}
-                                underlayColor='#0059a8'
-                                onPress={this.onPress}
-                            >
-                                <Text style={{ fontSize: 16, color: '#04b1ed' }}> All </Text>
-                            </TouchableHighlight>
-                            <TouchableHighlight
-                                style={styles.button}
-                                underlayColor='#0059a8'
-                                onPress={this.onPress}
-                            >
-                                <Text style={{ fontSize: 16, color: '#04b1ed' }}> Correct </Text>
-                            </TouchableHighlight>
-                            <TouchableHighlight
-                                style={styles.button}
-                                underlayColor='#0059a8'
-                                onPress={this.onPress}
-                            >
-                                <Text style={{ fontSize: 16, color: '#04b1ed' }}> Incorrect </Text>
-                            </TouchableHighlight>
-                            {/* </View>
-                        <View style={[styles.btnStyle, {marginHorizontal:80}]}> */}
-                            <TouchableHighlight
-                                style={styles.button}
-                                underlayColor='#0059a8'
-                                onPress={this.onPress}
-                            >
-                                <Text style={{ fontSize: 16, color: '#04b1ed' }}> Marked </Text>
-                            </TouchableHighlight>
-                            <TouchableHighlight
-                                style={styles.button}
-                                underlayColor='#0059a8'
-                                onPress={this.onPress}
-                            >
-                                <Text style={{ fontSize: 16, color: '#04b1ed' }}> Unattempted </Text>
-                            </TouchableHighlight>
+                        <View style={styles.btnStyle}>
+                            <Button title="All" type="outline" />
+                            <Button title="Correct" type="outline" />
+                            <Button title="Incorrect" type="outline" />
+                            <Button title="Marked" type="outline" />
+                            <Button title="Unattempted" type="outline" />
                         </View>
 
                         <View style={[styles.container, { marginVertical: 10, marginHorizontal: 10, borderWidth: 1, borderColor: '#d1d1d1' }]}>
@@ -225,6 +193,9 @@ const styles = StyleSheet.create({
     },
     btnStyle: {
         flexDirection: 'row',
+        alignItems: 'center', 
+        justifyContent: 'space-around'
+       
     },
     heading: {
         flex: 1,
