@@ -1,0 +1,41 @@
+{
+  "name": "QBANK",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "accordion-collapse-react-native": "^0.1.10",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-modal-image": "^2.3.2",
+    "react-native": "0.59.0-rc.3",
+    "react-native-calculator": "^0.5.2",
+    "react-native-elements": "1.1.0",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-image-view": "^2.1.5",
+    "react-native-image-zoom-viewer": "^2.2.26",
+    "react-native-lightbox": "^0.8.0",
+    "react-native-modal": "^11.0.1",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-paper": "^2.15.2",
+    "react-native-pure-chart": "0.0.24",
+    "react-native-simple-radio-button": "^2.7.3",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^2.6.2",
+    "react-router-native": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

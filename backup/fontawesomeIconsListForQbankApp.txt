@@ -1,0 +1,26 @@
+FontAwesome
+navicon
+th --> for dashboard
+flag
+adjust
+pencil
+gear -->settings
+edit
+file-text
+play
+pause-circle-o
+stop-circle-o
+eye
+eye-slash
+arrow-circle-o-left
+arrow-circle-o-right
+arrow-circle-left
+arrow-circle-right
+file-text-o -->All test
+caret-down
+caret-up
+calculator
+commenting-o
+vial --> for lab
+
+
