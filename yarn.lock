@@ -5317,6 +5317,13 @@ react-native-lightbox@^0.8.0:
   dependencies:
     prop-types "^15.5.10"
 
+react-native-modal-dropdown@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/react-native-modal-dropdown/-/react-native-modal-dropdown-0.6.2.tgz#da6027b3546d2031fbce46242bffc95561e13599"
+  integrity sha512-1jzByA+ME+q0mZJ2rZrLsf6jVwJhNxNHdg7I50xYZ9oYJsmmKwF9r/ks95tZxxks4Zvd7/FnaveNtyd+uevXAw==
+  dependencies:
+    prop-types "^15.6.0"
+
 react-native-modal@^11.0.1:
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/react-native-modal/-/react-native-modal-11.0.1.tgz#0c7e546557938981f188c56b80474ddfe7c9835c"
@@ -5325,10 +5332,10 @@ react-native-modal@^11.0.1:
     prop-types "^15.6.2"
     react-native-animatable "^1.3.1"
 
-react-native-paper@2.15.2:
-  version "2.15.2"
-  resolved "https://registry.yarnpkg.com/react-native-paper/-/react-native-paper-2.15.2.tgz#c1a529cd5a11cfdb20746e0eec87343c0fbc4e66"
-  integrity sha512-8Qibvbsz7BJR8BxUe9ICxIzsBJYBhnQK5w7kK8/5eXYLFjTArjs017ErE4gIuiALF4eusQO38cN6JBOkW0RLRg==
+react-native-paper@^2.15.2:
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/react-native-paper/-/react-native-paper-2.16.0.tgz#5a9edd5615bb010ec0d29cbfd5524c2944b2505d"
+  integrity sha512-dNHbVZNi9cfKr5sd/5pPGSJSo7ctnl61wLmRxWwvQ2VyEhDN+YxflvZ/vDZrnyivVWPcFS1nmiGCxABARISsuw==
   dependencies:
     "@callstack/react-theme-provider" "^1.0.7"
     color "^2.0.1"
@@ -6436,9 +6443,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
